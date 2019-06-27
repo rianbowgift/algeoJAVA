@@ -1,0 +1,26 @@
+잡다한기능이 많이필요하다.
+
+String temp = s.substring(i,i+1);	
+s라는 String문자열에서 한글자씩 뽑아서 temp에 저장한다
+
+int numInt = Integer.parseInt(temp);
+temp에있는 문자열을 numInt에 int형으로 변환한다.
+
+String s = Integer.toString(sum);
+sum으로 받은 숫자들을 s문자형으로 바꾼다.
+
+
+받을땐 숫자.
+받아서 문자로변환
+문자로변환된것을 한글자씩 추출
+추출된글자를 숫자로 변환
+변환된 숫자 한개한개로 값처리
+
+이런과정을 거친다.
+끝내고나서 그냥 처음받은 숫자를 문자로안바꾸고 숫자단계에서 처리하면 좋을것같다고 생각하여
+검색해봤는데, 방법이 있긴한것같으나 생각보다 간편해보이진않아서 따로 하진않겠다.
+
+참고
+http://egloos.zum.com/penta82/v/4099027
+https://coding-factory.tistory.com/126  //이곳은 묘하게 자주오게된다. 정리가잘되있는듯
+

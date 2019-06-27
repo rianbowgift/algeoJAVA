@@ -1,0 +1,16 @@
+어레이리스트로 하려다가 한참걸림.
+
+while(true){
+	String temp
+	temp = sc.next()
+	arrayList.add(temp)
+}
+
+방식을 사용해서 반복할때마다 스트림방식으로 전달된 문자들이 어레이리스트에 들어가는것을 기대했는데
+끝낼수있는방법이없음. 반드시 문자열이 몇개올지 알아야하는것같음.
+
+https://rightbellboy.tistory.com/40
+
+참고하여 스플릿방식에대해 알게되어
+String arr[] = sc.nextLine().split(" ");
+를 사용함으로 해결
